@@ -1,7 +1,7 @@
 exports.get = (req, res) => {
   res.json({
     status: 'ok',
-    lobbiest: [
+    lobbies: [
       { id: 0, name: 'Lobby #1', members: 4, isPrivate: true },
       { id: 1, name: 'Top lobby 4ever', members: 3, isPrivate: false },
       { id: 2, name: 'Fun!', members: 1, isPrivate: false },
